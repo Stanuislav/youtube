@@ -3,89 +3,93 @@
   <head>
     <meta charset="UTF-8">
     <title>Stas CV</title>
+    <link href="styles.css" rel="stylesheet">
   </head>
   <body>
-    <table>
-    <tr>
-        <td>
-        <img src="avatar.jpg" width="200" alt="foto to me">
-        </td>
-        <td>
-        <h1>Stanislav</h1>
-        <p><em>Я Учусь на <strong>разработчика</strong></em></p>
-        <p>Люблю хоккей</p>
-        </td>
-    </tr>
-    </table>
-    
 
-    <hr>
+    <div class="container">
 
-    <h2>Мои соцсети</h2>
-    <ul type = "disk">
-        <li><a href="http://www.yandex.ru" target="_blank">yandex</a></li>
-        <li><a href="http://www.instogram.ru" target="_blank">instogram</a></li>
-    </ul>
+        <div class="info">
+            <img src="avatar.jpg"  alt="foto to me" class="avatar"> 
+            <div class="info-text">
+                <h1>Шурховецкий Станислав Васильевич</h1>
+                <p>Я Учусь на <strong>разработчика</strong></p>
+                <p>Люблю хоккей</p>  
 
-    <hr>
+                    <h4>Мои соцсети</h4>
+                        <a href="http://www.yandex.ru" target="_blank">yandex</a>
+                        |
+                        <a href="http://www.instogram.ru" target="_blank">instogram</a>
+            </div>
+            </div>   
 
-    <h2>Мои хобби</h2>
-    <ol type = I>
-        <li>Хоккей</li>
-        <li>Шахматы</li>
-        <li>Футбол</li>
-        <li>Ведьмак</li>
-    </ol>
+        <div class="card bg-yellow">  
+            <h2>Мои хобби</h2>  
+            <ol class="list" type = I>
+                <li>Хоккей</li>
+                <li>Шахматы</li>
+                <li>Футбол</li>
+                <li>Ведьмак</li>
+            </ol>
+        </div>
+        
+        <div class="card bg-gren">
+            <h2>Youtube Course</h2>
+            <a href="yotube.html">Look spisok</a>
+        </div>    
 
-    <hr>
-    
-    <h2>Youtube Course</h2>
-    <a href="yotube.html">Look spisok</a>
+        <div class="card bg-red">
+            <h2>Опыт работы</h2>
+            <table class="table">
+                <tr>
+                    <td>СПС</td>
+                    <td>Растворщик</td>
+                    <td>2019-2021</td>
+                </tr>
+                <tr>
+                    <td>Эквио</td>
+                    <td>Тестер</td>
+                    <td>2021-2022</td>
+                </tr>
+                <tr>
+                    <td>Фриланс</td>
+                    <td>Тестер</td>
+                    <td>2021-2021</td>
+                </tr>
+                
+                <tr>
+                    <td>ВСК</td>
+                    <td>Тестер</td>
+                    <td>2022-now</td>
+                </tr>
+            </table>
+        </div>
+        
+        <div class="contact">
+            <h2>Связаться со мной</h2>
+            <form>
+                <div class="row">
+                    <div class="form-group">
+                        <label for="name">Ваше имя</label>
+                        <input type="text" id="name" placeholder="Vvedi name ">
+                    </div>    
+                    
+                    <div class="form-group">
+                        <label for="email">Ваше email</label>
+                        <input type="text" id="email" placeholder="Vvedi email ">
+                    </div>
+                </div>
+                
+                <div class="form-group">
+                    <label for="text">Ваше сообщение</label>
+                    <textarea name="" id="text" cols="25" rows="2"></textarea>
+                </div>
+                <input class="btn" type="submit" value="Отрпавить ">
+            </form>
+        </div>
 
-    <hr>
-
-    <h2>Опыт работы</h2>
-    <table>
-        <tr>
-            <th>Название компании</th>
-            <th>Должность</th>
-        </tr>
-        <tr>
-            <td>СПС -</td>
-            <td>Растворщик</td>
-        </tr>
-        <tr>
-            <td>Эквио-</td>
-            <td>Тестер</td>
-        </tr>
-        <tr>
-            <td>ВСК-</td>
-            <td>Тестер</td>
-        </tr>
-    </table>
-
-    <hr>
-
-    <h2>Связаться со мной</h2>
-    <form">
-        <label for="name">Ваше имя</label>
-        <input type="text" id="name" placeholder="Vvedi name ">
-    
-        <br>
-    
-        <label for="email">Ваше email</label>
-        <input type="text" id="email" placeholder="Vvedi email ">
-
-        <br>
-
-        <label for="text">Vvedi this text</label>
-        <textarea name="" id="text" cols="30" rows="2"></textarea>
-
-        <br>
-
-        <input type="submit" value="Отрпавить ">
-    </form>
-     
+    </div>
 
   </body>
+
 </html>

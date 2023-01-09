@@ -1,0 +1,175 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+body {
+    background-color: azure;
+    color:black;
+    
+    font-size: 16px;
+    font-weight:normal;
+    font-family:'Roboto', sans-serif;
+
+}
+
+a {
+    color: black;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline ;
+}
+
+a:active {
+    color: blue;
+}
+
+a:visited {
+    color:#86898f
+}
+
+h1 {
+    color:rgb(0, 0, 0)
+}
+
+.avatar {
+    color: rgb(14, 13, 13);
+    width: 200px;;
+    border-radius: 29px;
+    box-shadow: -4px -1px 10px rgb(0, 0, 0); 
+}
+
+.info p {
+    color: #86898f;
+    margin:auto;
+    font-style: italic;
+    font-weight: bold;
+}
+
+.info {
+    margin-bottom: 20px;
+    display: flex;
+
+}
+
+.container {
+    max-width: 750px;
+    margin: auto;
+    padding-top: 30px;
+}
+
+.social {
+    /* background-color:coral;
+    padding: 10px 40px 15px 10px;
+    border: 5px solid red;
+    margin: 20px; */
+}
+
+.card {
+    padding: 15px 20px ;
+    /* background-color: red; */
+    margin-bottom: 20px;
+    border-radius: 20px;
+}
+
+.bg-yellow {
+    background : #fff9dc ;
+}
+
+.bg-gren {
+    background: #e5ffe7 ;
+}
+
+.bg-red {
+    background-color: #ffe5e5 ;
+}
+
+.card h2{
+    margin-bottom: 10px;
+}
+
+.list {
+    padding: 0px 20px;
+}
+
+.list li { 
+    color:#86898f;
+    margin-bottom: 10px;   
+}
+
+.table {
+    width: 50%;
+    padding: 10px;
+    border: 200px;
+    margin: 10px;
+}
+
+.table td {
+    padding: 10px;
+    /* margin-bottom: 10px; */
+}
+
+.table td:nth-child(2), .table td:nth-child(3)  {
+    color : #86898f
+}
+
+.contact h2 {
+    text-align: center;
+}
+
+.form-group label {
+    display: block;
+    font-size: 14px;
+    color: #86898f
+}
+
+.form-group input {
+    width: 100%;
+    box-sizing: border-box;
+    background: transparent;
+    border: none;
+    border-bottom: 2px solid #ccc;
+    color: black;
+    padding: 15px 0 10px;
+    outline: none;
+    font-family: inherit;
+}
+
+.form-group textarea {
+    width: 100%;
+    box-sizing: border-box;
+    background: transparent;
+    border: none;
+    border-bottom: 2px solid #ccc;
+    color: black;
+    padding: 15px 0 10px;
+    outline: none;
+    font-family: inherit;
+}
+
+.row {
+    display: flex;
+    margin-bottom: 20px;
+}
+
+.row > .form-group {
+    width: 50%;
+    margin-right: 20px;
+}
+
+.info-text {
+    margin-left: 10px;
+}
+
+.info-text h4 {
+    margin-bottom: 10px;
+}
+
+.btn {
+    color:#111;
+    margin: 5px 15px;
+    font-family: inherit;
+}
+
+.btn:hover {
+    opacity: 15;
+}
